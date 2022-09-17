@@ -17,6 +17,13 @@ abstract public class BaseTest {
     public void setUp() {
         WebDriverManager.chromedriver().setup();
         Configuration.browser = "chrome";
+
+        // Использование браузера Firefox
+//        WebDriverManager.chromedriver().setup();
+//        Configuration.browser = "firefox";
+        // Использование браузера Yandex
+//        System.setProperty("webdriver.chrome.driver", "E://programs/WebDriver/bin/yandexdriver.exe");
+
         Configuration.driverManagerEnabled = true;
         Configuration.browserSize = "1920x1080";
         Configuration.headless = false;
