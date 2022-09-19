@@ -1,15 +1,15 @@
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.Test;
-import pageObject.ForgotPassPage;
-import pageObject.LoginPage;
-import pageObject.MainPage;
-import pageObject.RegistrationPage;
+import pageobject.ForgotPassPage;
+import pageobject.LoginPage;
+import pageobject.MainPage;
+import pageobject.RegistrationPage;
 
 import static com.codeborne.selenide.Selenide.open;
 import static com.codeborne.selenide.Selenide.page;
-import static pageObject.PagesUrls.*;
+import static pageobject.PagesUrls.*;
 
-public class LoginTest extends BaseTest{
+public class LoginTest extends BaseTest {
 
     @Test
     @DisplayName("Проверяем, что можно залогинится через кнопку \"Войти в аккаунт\"")

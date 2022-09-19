@@ -1,13 +1,14 @@
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.Test;
-import pageObject.LoginPage;
-import pageObject.MainPage;
-import pageObject.ProfilePage;
+import pageobject.LoginPage;
+import pageobject.MainPage;
+import pageobject.ProfilePage;
+
 import static com.codeborne.selenide.Selenide.open;
 import static com.codeborne.selenide.Selenide.page;
-import static pageObject.PagesUrls.LOGIN_PAGE_URL;
+import static pageobject.PagesUrls.LOGIN_PAGE_URL;
 
-public class ProfileNavigationTest extends BaseTest{
+public class ProfileNavigationTest extends BaseTest {
 
     @Test
     @DisplayName("Проверяем, что авторизованный пользователь может перейти на страницу профиля кликнув на кнопку \"Личный кабинет\"")

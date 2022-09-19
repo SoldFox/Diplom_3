@@ -1,4 +1,4 @@
-package pageObject;
+package pageobject;
 /**
  * Сборник статических переменных с URL'ами для всех страниц
  */

@@ -1,5 +1,5 @@
-import API.Tokens;
-import API.UserClient;
+import api.Tokens;
+import api.UserClient;
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -14,6 +14,7 @@ abstract public class BaseTest {
     protected String incorrectPassword = UserGenerator.getIncorrectPassword();
 
     UserClient userClient;
+
     public void setUp() {
         WebDriverManager.chromedriver().setup();
         Configuration.browser = "chrome";

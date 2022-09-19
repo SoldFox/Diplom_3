@@ -1,10 +1,11 @@
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.Test;
-import pageObject.MainPage;
-import static com.codeborne.selenide.Selenide.open;
-import static pageObject.PagesUrls.MAIN_PAGE_URL;
+import pageobject.MainPage;
 
-public class ConstructorTest extends BaseTest{
+import static com.codeborne.selenide.Selenide.open;
+import static pageobject.PagesUrls.MAIN_PAGE_URL;
+
+public class ConstructorTest extends BaseTest {
 
     @Test
     @DisplayName("Проверяем, что можно перейти к разделу бургеров кликнув на кнопку \"Бургер\"")

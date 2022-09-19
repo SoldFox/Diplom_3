@@ -1,8 +1,10 @@
-package API;
+package api;
+
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
-import static pageObject.PagesUrls.MAIN_PAGE_URL;
+
+import static pageobject.PagesUrls.MAIN_PAGE_URL;
 
 public class RestClient {
 

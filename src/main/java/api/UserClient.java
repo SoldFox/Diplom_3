@@ -1,8 +1,10 @@
-package API;
+package api;
+
 import java.util.HashMap;
+
 import static io.restassured.RestAssured.given;
 
-public class UserClient extends RestClient{
+public class UserClient extends RestClient {
 
     private static final String REGISTRATION_URL = "/api/auth/register";
     private static final String DELETE_URL = "/api/auth/user";
